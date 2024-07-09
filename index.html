@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MKS Sistemas - E-commerce</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">MKS Sistemas</div>
+        <div class="cart-icon" id="cartIcon">
+            <span class="material-icons">shopping_cart</span>
+            <span class="cart-count" id="cartCount">0</span>
+        </div>
+    </header>
+    
+    <main>
+        <div class="product-grid" id="productGrid">
+            <!-- Produtos serão inseridos aqui via JavaScript -->
+        </div>
+    </main>
+
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h2>Carrinho de compras</h2>
+            <button class="close-cart" id="closeCart">X</button>
+        </div>
+        <div id="cartItems">
+            <!-- Itens do carrinho serão inseridos aqui via JavaScript -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <strong>Total: <span id="cartTotal">R$0,00</span></strong>
+            </div>
+            <button class="finish-button" id="finishButton">Finalizar Compra</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
