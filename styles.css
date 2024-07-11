@@ -69,12 +69,38 @@ header {
 }
 
 .buy-button {
-    background-color: #0066cc;
+    background-color: #007bff;
     color: white;
     border: none;
-    padding: 5px 10px;
-    border-radius: 4px;
+    padding: 8px 15px;
+    border-radius: 5px;
     cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.buy-button:before {
+    content: "\1F6D2"; /* Código Unicode para o ícone de carrinho de compras */
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+.buy-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.buy-button:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .cart-sidebar {
