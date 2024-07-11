@@ -194,3 +194,13 @@ header {
     cursor: pointer;
     border-radius: 4px;
 }
+.finish-button:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.finish-button:hover {
+    background-color: #363333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
